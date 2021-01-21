@@ -1,0 +1,12 @@
+{
+  "manifest_version": 1,
+  "name": "startpage-for-firefox",
+  "short_name": "startpage",
+  "version": "0.2",
+  "description": "Overrides the browsers newtab page with a custom startpage.",
+  "author": "LieutenantLukas",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}
