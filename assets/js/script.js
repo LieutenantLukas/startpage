@@ -47,7 +47,7 @@ const $s = {
 function engines () {
   return {
     e: ['https://www.ecosia.org/search?q=', 'Ecosia'],
-	yt: ['https://youtube.com/results?search_query=', 'Youtube'],
+	  yt: ['https://youtube.com/results?search_query=', 'Youtube'],
     g: ['https://github.com/search?q=', 'GitHub'],
     s: ['https://stackoverflow.com/search?q=', 'Stackoverflow'],
     at: ['https://alternativeto.net/browse/search?q=', 'AlternativeTo'],
